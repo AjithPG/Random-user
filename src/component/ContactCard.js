@@ -5,7 +5,7 @@ const ContactCard = ({ contactList }) => {
   return (
     <>
       {contactList?.map((contact, index) => (
-        <figure key={index} className="bg-white h-80 w-80 rounded-lg shadow-md pt-7">
+        <figure key={index} className="bg-white h-80 w-100 rounded-lg shadow-md pt-7">
           <img
             alt="user"
             src={contact.picture.large}

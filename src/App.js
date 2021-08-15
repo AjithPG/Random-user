@@ -37,11 +37,11 @@ function App() {
   return (
     <div className="bg-gray-100">
       <section>
-         <form action="">
-            <input type="text" className="ml-4 mt-5 mb-10 rounded-md p-2 focus:outline-none focus:ring" placeholder="search here" onChange={event => setFilterQuery(event.target.value)} />
+         <form action="" className="px-4">
+            <input type="text" className="px-3 mt-5 mb-10 w-full rounded-md py-2 focus:outline-none focus:ring" placeholder="search here" onChange={event => setFilterQuery(event.target.value)} />
          </form>
       </section>
-      <section className="p-4 grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+      <section className="p-4 justify-center grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
         
         {contactList?.length < 1 && (<h1>No data found </h1>)}
 
