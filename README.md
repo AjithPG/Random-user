@@ -6,7 +6,7 @@ CSS Framework: Tailwindcss (https://tailwindcss.com/)
 
 ## React Concepts
 
-1.usestate
+# 1.usestate - useState is a Hook that lets you add React state to function components
 2.useeffect
 
 
