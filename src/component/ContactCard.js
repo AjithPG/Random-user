@@ -1,4 +1,3 @@
-import user from "../asset/sample.jpg";
 
 const ContactCard = ({ contactList }) => {
   
