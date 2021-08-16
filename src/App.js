@@ -40,7 +40,7 @@ function App() {
   
 
   return (
-    <div className="bg-gray-100 h-screen">
+    <div className="bg-gray-100 h-full">
       <section>
          <form action="" className="px-4">
             <input type="text" className="px-3 mt-5 mb-10 w-full rounded-md py-2 focus:outline-none focus:ring" placeholder="search here" onChange={event => setFilterQuery(event.target.value)} />
