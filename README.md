@@ -15,9 +15,15 @@ CSS Framework: Tailwindcss (https://tailwindcss.com/)
 
 ## Javascript concepts
 
-1.charAt()
-2.includes()
-3.length
+
+
+<ol>
+  <li>charAt() - This method returns the character at a specified index in a string</li>
+  <li>includes() - This method performs a case-sensitive search to determine whether one string may be found within another string, returning true or false as appropriate. </li>
+  <li>length - Length property return the length of the string</li>
+</ol>
+
+
 
 
 ## Available Scripts
