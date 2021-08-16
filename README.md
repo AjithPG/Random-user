@@ -4,6 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 CSS Framework: Tailwindcss (https://tailwindcss.com/)
 
+<h2>Concepts used in this project</h2>
+
 ## React Concepts
 
 <ol>
